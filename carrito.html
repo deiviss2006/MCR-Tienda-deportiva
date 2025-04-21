@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina para enseñar ropa y accesorios de futbol sala">
+    <meta name="author" content="Deivis Cedeño">
+    <meta name="keywords" content="Ropa, micrerosport, accesorios, futbol, futbol sala">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MCR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://micrerosport.com/wp-content/uploads/2023/08/Logo-MCR-Micrero-Sport.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <img src="https://micrerosport.com/wp-content/uploads/2023/08/Logo-MCR-Micrero-Sport.png" alt="Logo Kawasaki" height="100px" width="200px" class="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="ropa.html"><i class="fas fa-tshirt"></i>Ropa</a></li>
+                <li><a href="accesorios.html"><i class="fas fa-shirt"></i>accesorios</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i>Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+            <a href="#" class="icon"><i class="fas fa-shopping-cart"></i></a> 
+        </div>
+
+
+    </header>
+    <br>
+    <h2 class="titulo-accesorios">CARRITO DE COMPRAS</h2>
+    <section class="contacto">
+        <div class="contacto-contenido">
+            <h1>Formulario de pago</h1>
+            <p>Por favor, completa el formulario a continuación:</p>
+
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="cedula">Cédula de Ciudadanía:</label>
+                <input type="num" id="cedula" name="cedula" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="pagos">Formas de pago:</label>
+                <select id="pagos" name="pagos" required>
+                    <option value="tarjeta">Tarjeta de Crédito</option>
+                    <option value="efectivo">Efectivo</option>
+                    <option value="transferencia">Transferencia Bancaria</option>
+                </select>
+
+                <label for="paises">paises:</label>
+                <select id="paises" name="paises" required>
+                    <option value="colombia">Colombia</option>
+                    <option value="peru">Perú</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="venezuela">Venezuela</option>
+                </select>
+
+                <label for="ciudades">Ciudades:</label>
+                <select id="ciudades" name="ciudades" required>
+                    <option value="bogota">Bogotá</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="cartagena">Cartagena</option>
+                </select>
+        
+                <label for="direccion">Dirección de Envío:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <button type="button" onclick="location.href='index.html'">Pagar</button>
+                <button
+                    type="reset"
+                    class="btn btn-primary"
+                >
+                    Reset
+                </button>
+                
+        </div>
+    </section>
+
+    <footer class="pie">
+        <div class="footer-section left">
+            <p><a href="#" class="social-link"><i class="fab fa-facebook"></i> Facebook</a></p>
+            <p><a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a></p>
+            <p><a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a></p>
+        </div>
+        <div class="footer-section center">
+            <p>&copy; 2015-2025 Mi Página Web | Desarrollado por MCR</p>
+            <p><a href="/politica-de-privacidad" class="footer-link">Política de privacidad</a> | <a href="/terminos-y-condiciones" class="footer-link">Términos y condiciones</a></p>
+            <p>Contenido bajo    |<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" class="footer-link"> Licencia Creative Commons</a></p>
+        </div>
+        <div class="footer-section right">
+            <p><a href="tel:+1234567890" class="footer-link"><i class="fas fa-phone-alt"></i> Teléfono: +57 3003478277</a></p>
+            <p><a href="mailto:contacto@miweb.com" class="footer-link"><i class="fas fa-envelope"></i> Correo: deivis@gmail.com</a></p>
+            <p><a href="https://www.google.com/maps?q=Calle+Ejemplo+123+Ciudad" target="_blank" class="footer-link"><i class="fas fa-map-marker-alt"></i> Dirección: Calle 92 #98-34</a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    
+</body>
+</html>
